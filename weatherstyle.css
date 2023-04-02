@@ -3,9 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 /* font usages and formats */
+h1 {
+    font-family: 'Nonum Gothic', sans-serif;
+    color: black;
+    font-weight: 100;
+    line-height: .75;
+    letter-spacing: -.009em;
+    font-size: 16px;
+    padding: 5px;
+    box
+}
 
 body {
-    font-family: 'Quicksand' sans-serif;
+    font-family: /*'Quicksand'*/, 'Nonum Gothic', sans-serif;
     color: black;
     font-weight: 300;
     line-height: 1;
@@ -14,10 +24,21 @@ body {
     padding: 10px;
 }
 
-/* image imparts */
-
+/* image imports */
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 /* color pallette */
 
 /* box layouts */
-
+div.weatherBox {
+    box-sizing: content-box;
+    min-width: 30%;
+    max-width: 90%;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #191965;
+}
 /* box backgrounds */
