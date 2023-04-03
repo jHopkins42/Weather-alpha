@@ -15,13 +15,15 @@ h1 {
 }
 
 body {
-    font-family: /*'Quicksand'*/, 'Nonum Gothic', sans-serif;
+    font-family: 'Quicksand', /*'Nonum Gothic',*/ sans-serif;
     color: black;
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.004em;
     font-size: 21px;
     padding: 10px;
+    background: #dfd3c3;
+    text-align: center;
 }
 
 /* image imports */
@@ -31,6 +33,11 @@ img {
     display: block;
 }
 /* color pallette */
+/*    #dfd3c3    */
+/*    #f0ece2    */
+/*    #c7b198    */
+/*    #596e79    */
+
 
 /* box layouts */
 div.weatherBox {
