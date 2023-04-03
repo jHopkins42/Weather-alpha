@@ -41,6 +41,7 @@ img {
 
 /* box layouts */
 div.weatherBox {
+    font-family: "Quicksand" /*'Nonum Gothic',*/ sans-serif;
     box-sizing: content-box;
     min-width: 30%;
     max-width: 90%;
