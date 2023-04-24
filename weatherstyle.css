@@ -41,7 +41,7 @@ img {
 
 /* box layouts */
 div.weatherBox {
-    font-family: "Quicksand" /*'Nonum Gothic',*/ sans-serif;
+    font-family: "Quicksand", /*'Nonum Gothic',*/ sans-serif;
     flex: center;
     align-content: center;
     box-sizing: content-box;
@@ -50,10 +50,10 @@ div.weatherBox {
     margin: auto;
     padding: 15px;
     border: 1px solid #191965;
-    background-image: https://i.redd.it/xoimyjukzhny.jpg;
+/*    background-image: url(https://unsplash.com/photos/UJsUJr3cgEM); - image not linking properly*/
 }
 /* box backgrounds */
-.weatherBox.weatherSearchBar.button.searchBtn {
+div.weatherBox.WeatherSearch.weatherSearchBar.button.searchBtn {
     min-width: 20px;
     max-width: 75px;
     min-height: 10px;
