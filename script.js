@@ -2,7 +2,7 @@ let secondKey = {
     apiKey: "e820537556d629a0498d420a3291f788",
     fetchWeather: function (city) {
         fetch(
-            "http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={this.apiKey}"
+            "http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={e820537556d629a0498d420a3291f788}"
             )
             .then((response) => {
                 if (!response.ok) {
@@ -4974,6 +4974,10 @@ let apiResponse = {
 }
 
 console.log(apiResponse);
+
+document.querySelector("searchBtn").addEventListener("click", function() {
+    weather.search();
+});
 
 let forecastday = apiResponse.forecast.forecastday;
 
