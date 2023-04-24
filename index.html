@@ -10,9 +10,19 @@
 <body>
     <h1>This has been a test of the web building application: "dumb human 1.0".</h1>
     <div class="weatherBox">
-        <div class="humorWeather">
+        <div class="WeatherSearch">
             <img src="https://i.redd.it/xoimyjukzhny.jpg" alt="rock hanging from a hook with a sign behind it depicting various rock statuses and corresponding weather forecasts" srcset="" id="weather-icon">
-            <div id="location">Unable to Scry Weather</div>
+            <input type="text" class="weatherSearchBar">
+                <button class="searchBtn"></button>
+                <div id="location">Unable to Scry Weather</div>
+        </div>
+        <div class="cityWeather">
+            <h2 class="city">Weather in the big city</h2>
+            <div class="temp">98 degrees</div>
+            <img src="" alt="" class="icon" />
+            <div class="description">cloudy</div>
+            <div class="humidity">humid</div>
+            <div class="wind">wind speed</div>
         </div>
     </div>
     <script src="script.js"></script>
