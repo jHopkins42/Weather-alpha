@@ -11,11 +11,11 @@ h1 {
     letter-spacing: -.009em;
     font-size: 16px;
     padding: 5px;
-    box
+    
 }
 
 body {
-    font-family: "Quicksand" /*'Nonum Gothic',*/ sans-serif;
+    font-family: "Quicksand", /*'Nonum Gothic',*/ sans-serif;
     color: black;
     font-weight: 300;
     line-height: 1;
